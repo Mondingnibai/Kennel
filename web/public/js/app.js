@@ -2417,7 +2417,248 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "app-view" }, [
-      _c("h1", [_vm._v("App Vue")]),
+      _c("div", { staticClass: "categories-shop" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "title-all text-center" }, [
+                _c("h1", [_vm._v("Feature Puppies")]),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/categories_img_01.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/categories_img_02.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/categories_img_03.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "box-add-products" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-12" }, [
+              _c("div", { staticClass: "offer-box-products" }, [
+                _c(
+                  "div",
+                  { staticClass: "embed-responsive embed-responsive-16by9" },
+                  [
+                    _c("iframe", {
+                      staticClass: "embed-responsive-item",
+                      attrs: {
+                        src: "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+                        allowfullscreen: "",
+                      },
+                    }),
+                  ]
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-12" }, [
+              _c("div", { staticClass: "offer-box-products" }, [
+                _c(
+                  "div",
+                  { staticClass: "embed-responsive embed-responsive-16by9" },
+                  [
+                    _c("iframe", {
+                      staticClass: "embed-responsive-item",
+                      attrs: {
+                        src: "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+                        allowfullscreen: "",
+                      },
+                    }),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "categories-shop" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "title-all text-center" }, [
+                _c("h1", [_vm._v("Puppies For Sales")]),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
     ])
   },
 ]

@@ -67,10 +67,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="login-box">
-                            <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
-                                <!-- <option>Register Here</option> -->
-                                <option>Sign In</option>
-                            </select>
+                            <p><a class="btn hvr-hover" href="#">Sign In</a></p>
                         </div>
                         <div class="text-slid-box">
                             <!-- <div id="offer-box" class="carouselTicker">
@@ -128,14 +125,10 @@
                             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                                <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Our Breed</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="shop.html">Sidebar Shop</a></li>
-                                    <li><a href="shop-detail.html">Shop Detail</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="my-account.html">My Account</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                    <li><a href="shop.html">Male Dog</a></li>
+                                    <li><a href="shop-detail.html">Female Dog</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
@@ -143,21 +136,6 @@
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
-
-                    <!-- Start Atribute Navigation -->
-                    <div class="attr-nav">
-                        <ul>
-                            <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                            <li class="side-menu">
-                                <a href="#">
-                                    <i class="fa fa-shopping-bag"></i>
-                                    <span class="badge">3</span>
-                                    <p>My Cart</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- End Atribute Navigation -->
                 </div>
                 <!-- Start Side Menu -->
                 <div class="side">
@@ -251,36 +229,4 @@
         </div>
         <!-- End Slider -->
 
-        <!-- Start Categories  -->
-        <div class="categories-shop">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="title-all text-center">
-                            <h1>Top Featured</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="shop-cat-box">
-                            <img class="img-fluid" src="images/categories_img_01.jpg" alt="" />
-                            <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="shop-cat-box">
-                            <img class="img-fluid" src="images/categories_img_02.jpg" alt="" />
-                            <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="shop-cat-box">
-                            <img class="img-fluid" src="images/categories_img_03.jpg" alt="" />
-                            <a class="btn hvr-hover" href="#">Lorem ipsum dolor</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Categories -->
+        

@@ -2,5 +2,5 @@
 
 @section('page_title', 'Home')
 @section('content')
-<app></app>
+    <app></app>
 @endsection
