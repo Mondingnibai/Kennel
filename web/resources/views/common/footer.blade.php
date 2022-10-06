@@ -1,7 +1,7 @@
     <footer>
         <div class="footer-main">
             <div class="container">
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-lg-4 col-md-12 col-sm-12">
 						<div class="footer-top-box">
 							<h3>Business Time</h3>
@@ -38,25 +38,22 @@
 						</div>
 					</div>
 				</div>
-				<hr>
+				<hr> -->
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
-                            <h4>About Freshshop</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 							
+                            <h4>About Silmugi Kennel</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 					
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-link">
                             <h4>Information</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Our Sitemap</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="{{ route('about-us') }}">About Us</a></li>
+                                <li><a href="{{ route('male-breed') }}">Male Breed</a></li>
+                                <li><a href="{{ route('female-breed') }}">Female Breed</a></li>
+                                <li><a href="{{ route('contact-us') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -65,7 +62,7 @@
                             <h4>Contact Us</h4>
                             <ul>
                                 <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Address: Michael I. Days 3756 <br>Preston Street Wichita,<br> KS 67213 </p>
+                                    <p><i class="fas fa-map-marker-alt"></i>Lorem Ipsum Dolor <br>Lorem Ipsum Dolor,<br> </p>
                                 </li>
                                 <li>
                                     <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-888705770">+1-888 705 770</a></p>
@@ -84,12 +81,11 @@
 
     <!-- Start copyright  -->
     <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
-            <a href="https://html.design/">html design</a></p>
+        <p class="footer-company">All Rights Reserved. &copy; 2022 <a href="#">SILMUGI KENNEL OPC</a> </p>
     </div>
     <!-- End copyright  -->
 
-    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+    <!-- <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a> -->
 
     <!-- ALL JS FILES -->
     <script src="{{ mix('js/app.js') }}"></script>

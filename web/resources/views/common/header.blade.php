@@ -67,7 +67,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="login-box">
-                            <p><a class="btn hvr-hover" href="#">Sign In</a></p>
+                            <!-- <p><a class="btn hvr-hover" href="#">Sign In</a></p> -->
                         </div>
                         <div class="text-slid-box">
                             <!-- <div id="offer-box" class="carouselTicker">
@@ -122,17 +122,17 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                            <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About Us</a></li>
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Our Breed</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="shop.html">Male Dog</a></li>
-                                    <li><a href="shop-detail.html">Female Dog</a></li>
+                                    <li><a href="{{ route('male-breed') }}">Male Dog</a></li>
+                                    <li><a href="{{ route('female-breed') }}">Female Dog</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li> -->
+                            <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -181,52 +181,5 @@
             </div>
         </div>
         <!-- End Top Search -->
-
-        <!-- Start Slider -->
-        <div id="slides-shop" class="cover-slides">
-            <ul class="slides-container">
-                <li class="text-center">
-                    <img src="images/banner-01.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="m-b-20"><strong>Welcome To <br> Freshshop</strong></h1>
-                                <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
-                                <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="text-center">
-                    <img src="images/banner-02.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="m-b-20"><strong>Welcome To <br> Freshshop</strong></h1>
-                                <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
-                                <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="text-center">
-                    <img src="images/banner-03.jpg" alt="">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h1 class="m-b-20"><strong>Welcome To <br> Freshshop</strong></h1>
-                                <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p>
-                                <p><a class="btn hvr-hover" href="#">Shop New</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="slides-navigation">
-                <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-                <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-            </div>
-        </div>
-        <!-- End Slider -->
 
         
