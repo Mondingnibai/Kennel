@@ -11,7 +11,7 @@
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>SILMUGI KENNEL OPC</strong></h1>
                             <!-- <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p> -->
-                            <p><a class="btn hvr-hover" href="#">See Our Breed</a></p>
+                            <p><a class="btn hvr-hover" href="/male-breed">See Our Breed</a></p>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>SILMUGI KENNEL OPC</strong></h1>
                             <!-- <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p> -->
-                            <p><a class="btn hvr-hover" href="#">See Our Breed</a></p>
+                            <p><a class="btn hvr-hover" href="/male-breed">See Our Breed</a></p>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         <div class="col-md-12">
                             <h1 class="m-b-20"><strong>SILMUGI KENNEL OPC</strong></h1>
                             <!-- <p class="m-b-40">See how your users experience your website in realtime or view <br> trends to see any changes in performance over time.</p> -->
-                            <p><a class="btn hvr-hover" href="#">See Our Breed</a></p>
+                            <p><a class="btn hvr-hover" href="/male-breed">See Our Breed</a></p>
                         </div>
                     </div>
                 </div>
@@ -88,14 +88,14 @@
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="offer-box-products">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RtaDaHe9lQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="offer-box-products">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/RtaDaHe9lQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>

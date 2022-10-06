@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="images/silmugi_logo.jpg" type="image/x-icon">
         <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
         <!-- Fonts -->
@@ -122,17 +122,17 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li class="nav-item active"><a class="nav-link" href="{{ url('/') }}">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ route('about-us') }}">About Us</a></li>
-                            <li class="dropdown">
+                            <li class="nav-item {{ Request::path() == '/' ? 'active' : '' }} "><a class="nav-link" href="{{ url('/') }}">Home</a></li>
+                            <li class="nav-item {{ Request::path() == 'about-us' ? 'active' : '' }} "><a class="nav-link" href="{{ route('about-us') }}">About Us</a></li>
+                            <li class="dropdown {{ Request::path() == 'male-breed' ? 'active' : '' }}">
                                 <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Our Breed</a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="{{ route('male-breed') }}">Male Dog</a></li>
-                                    <li><a href="{{ route('female-breed') }}">Female Dog</a></li>
+                                    <li class="{{ Request::path() == 'male-breed' ? 'active' : '' }}"><a href="{{ route('male-breed') }}">Male Breed</a></li>
+                                    <li class="{{ Request::path() == 'female-breed' ? 'active' : '' }}"><a href="{{ route('female-breed') }}">Female Breed</a></li>
                                 </ul>
                             </li>
                             <!-- <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li> -->
-                            <li class="nav-item"><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a></li>
+                            <li class="nav-item {{ Request::path() == 'contact-us' ? 'active' : '' }} "><a class="nav-link" href="{{ route('contact-us') }}">Contact Us</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->

@@ -2662,7 +2662,10 @@ var staticRenderFns = [
                   _c("p", [
                     _c(
                       "a",
-                      { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                      {
+                        staticClass: "btn hvr-hover",
+                        attrs: { href: "/male-breed" },
+                      },
                       [_vm._v("See Our Breed")]
                     ),
                   ]),
@@ -2686,7 +2689,10 @@ var staticRenderFns = [
                   _c("p", [
                     _c(
                       "a",
-                      { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                      {
+                        staticClass: "btn hvr-hover",
+                        attrs: { href: "/male-breed" },
+                      },
                       [_vm._v("See Our Breed")]
                     ),
                   ]),
@@ -2710,7 +2716,10 @@ var staticRenderFns = [
                   _c("p", [
                     _c(
                       "a",
-                      { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                      {
+                        staticClass: "btn hvr-hover",
+                        attrs: { href: "/male-breed" },
+                      },
                       [_vm._v("See Our Breed")]
                     ),
                   ]),
@@ -2818,9 +2827,14 @@ var staticRenderFns = [
                   { staticClass: "embed-responsive embed-responsive-16by9" },
                   [
                     _c("iframe", {
-                      staticClass: "embed-responsive-item",
                       attrs: {
-                        src: "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+                        width: "560",
+                        height: "315",
+                        src: "https://www.youtube.com/embed/RtaDaHe9lQ0",
+                        title: "YouTube video player",
+                        frameborder: "0",
+                        allow:
+                          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
                         allowfullscreen: "",
                       },
                     }),
@@ -2836,9 +2850,14 @@ var staticRenderFns = [
                   { staticClass: "embed-responsive embed-responsive-16by9" },
                   [
                     _c("iframe", {
-                      staticClass: "embed-responsive-item",
                       attrs: {
-                        src: "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+                        width: "560",
+                        height: "315",
+                        src: "https://www.youtube.com/embed/RtaDaHe9lQ0",
+                        title: "YouTube video player",
+                        frameborder: "0",
+                        allow:
+                          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
                         allowfullscreen: "",
                       },
                     }),
@@ -3029,7 +3048,7 @@ var staticRenderFns = [
               _c("div", { staticClass: "banner-frame" }, [
                 _c("img", {
                   staticClass: "img-fluid",
-                  attrs: { src: "images/about-img.jpg", alt: "" },
+                  attrs: { src: "images/silmugi_logo.jpg", alt: "" },
                 }),
               ]),
             ]),
@@ -3042,13 +3061,7 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", [
                 _vm._v(
-                  '"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam\n                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,\n                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?\n                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.'
-                ),
-              ]),
-              _vm._v(" "),
-              _c("p", [
-                _vm._v(
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                  '"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam\n                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.'
                 ),
               ]),
               _vm._v(" "),
@@ -3130,7 +3143,173 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "contactus-view" }, [
-      _c("h1", [_vm._v("Contact Us")]),
+      _c("div", { staticClass: "all-title-box" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("h2", [_vm._v("Contact  Us")]),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "contact-box-main" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-8 col-sm-12" }, [
+              _c("div", { staticClass: "contact-form-right" }, [
+                _c("h2", [_vm._v("GET IN TOUCH")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio justo, ultrices ac nisl sed, lobortis porta elit. Fusce in metus ac ex venenatis ultricies at cursus mauris."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("form", { attrs: { id: "contactForm" } }, [
+                  _c("div", { staticClass: "row" }, [
+                    _c("div", { staticClass: "col-md-12" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            id: "name",
+                            name: "name",
+                            placeholder: "Your Name",
+                            required: "",
+                            "data-error": "Please enter your name",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "help-block with-errors" }),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-12" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            placeholder: "Your Email",
+                            id: "email",
+                            name: "name",
+                            required: "",
+                            "data-error": "Please enter your email",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "help-block with-errors" }),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-12" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("input", {
+                          staticClass: "form-control",
+                          attrs: {
+                            type: "text",
+                            id: "subject",
+                            name: "name",
+                            placeholder: "Subject",
+                            required: "",
+                            "data-error": "Please enter your Subject",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "help-block with-errors" }),
+                      ]),
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "col-md-12" }, [
+                      _c("div", { staticClass: "form-group" }, [
+                        _c("textarea", {
+                          staticClass: "form-control",
+                          attrs: {
+                            id: "message",
+                            placeholder: "Your Message",
+                            rows: "4",
+                            "data-error": "Write your message",
+                            required: "",
+                          },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "help-block with-errors" }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "submit-button text-center" }, [
+                        _c(
+                          "button",
+                          {
+                            staticClass: "btn hvr-hover",
+                            attrs: { id: "submit", type: "submit" },
+                          },
+                          [_vm._v("Send Message")]
+                        ),
+                        _vm._v(" "),
+                        _c("div", {
+                          staticClass: "h3 text-center hidden",
+                          attrs: { id: "msgSubmit" },
+                        }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "clearfix" }),
+                      ]),
+                    ]),
+                  ]),
+                ]),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-4 col-sm-12" }, [
+              _c("div", { staticClass: "contact-info-left" }, [
+                _c("h2", [_vm._v("CONTACT INFO")]),
+                _vm._v(" "),
+                _c("p", [
+                  _vm._v(
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. "
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("ul", [
+                  _c("li", [
+                    _c("p", [
+                      _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                      _vm._v("Address: Michael I. Days 9000 "),
+                      _c("br"),
+                      _vm._v("Preston Street Wichita,"),
+                      _c("br"),
+                      _vm._v(" KS 87213 "),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("p", [
+                      _c("i", { staticClass: "fas fa-phone-square" }),
+                      _vm._v("Phone: "),
+                      _c("a", { attrs: { href: "tel:+1-888705770" } }, [
+                        _vm._v("+1-888 705 770"),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c("p", [
+                      _c("i", { staticClass: "fas fa-envelope" }),
+                      _vm._v("Email: "),
+                      _c(
+                        "a",
+                        { attrs: { href: "mailto:contactinfo@gmail.com" } },
+                        [_vm._v("contactinfo@gmail.com")]
+                      ),
+                    ]),
+                  ]),
+                ]),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
     ])
   },
 ]
@@ -3164,7 +3343,145 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "femalebreed-view" }, [
-      _c("h1", [_vm._v("Female Breed")]),
+      _c("div", { staticClass: "all-title-box" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("h2", [_vm._v("Female Breed")]),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "categories-shop" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "title-all text-center" }, [
+                _c("h1", [_vm._v("Female Breed Puppies")]),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
     ])
   },
 ]
@@ -3198,7 +3515,145 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "malebreed-view" }, [
-      _c("h1", [_vm._v("Male Breed")]),
+      _c("div", { staticClass: "all-title-box" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("h2", [_vm._v("Male Breed")]),
+            ]),
+          ]),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "categories-shop" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-12" }, [
+              _c("div", { staticClass: "title-all text-center" }, [
+                _c("h1", [_vm._v("Male Breed Puppies")]),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-lg-4 col-md-4 col-sm-12 col-xs-12" },
+              [
+                _c("div", { staticClass: "shop-cat-box" }, [
+                  _c("img", {
+                    staticClass: "img-fluid",
+                    attrs: { src: "images/puppies.jpg", alt: "" },
+                  }),
+                  _vm._v(" "),
+                  _c(
+                    "a",
+                    { staticClass: "btn hvr-hover", attrs: { href: "#" } },
+                    [_vm._v("Lorem ipsum dolor")]
+                  ),
+                ]),
+              ]
+            ),
+          ]),
+        ]),
+      ]),
     ])
   },
 ]
